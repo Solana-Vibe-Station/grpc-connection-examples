@@ -39,6 +39,8 @@
 /python/.pytest_cache/
 /python/*.egg-info/
 /python/dist/
+/python/generated/__pycache__/
+/python/generated/*.pyc
 
 # IDE specific files
 *.swp
