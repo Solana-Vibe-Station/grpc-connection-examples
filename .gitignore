@@ -1,0 +1,50 @@
+# General
+.DS_Store
+.env
+.env.local
+.env.*.local
+*.log
+.vscode/
+.idea/
+
+# Rust
+/rust/target/
+/rust/Cargo.lock
+/rust/**/*.rs.bk
+/rust/*.pdb
+
+# TypeScript/Node.js
+/typescript/node_modules/
+/typescript/dist/
+/typescript/build/
+/typescript/*.tsbuildinfo
+/typescript/npm-debug.log*
+/typescript/yarn-debug.log*
+/typescript/yarn-error.log*
+/typescript/.npm
+/typescript/.yarn
+
+# Python
+/python/__pycache__/
+/python/*.py[cod]
+/python/*$py.class
+/python/*.so
+/python/.Python
+/python/env/
+/python/venv/
+/python/ENV/
+/python/.venv
+/python/pip-log.txt
+/python/.coverage
+/python/.pytest_cache/
+/python/*.egg-info/
+/python/dist/
+
+# IDE specific files
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.sublime-workspace
